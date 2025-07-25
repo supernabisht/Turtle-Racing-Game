@@ -1,28 +1,42 @@
-# 🐢 Turtle Crossing Game
+# 🐢 Turtle Racing Game
 
-A fun arcade-style game built using Python's `turtle` module.  
-Guide the turtle to the top of the screen while dodging moving cars. With each level, the cars get faster!
+A colorful and fun Python mini-game where six turtles race across the screen — and **you get to bet on your favorite!** It’s a perfect beginner-friendly project built using Python’s `turtle` module and a great way to learn about OOP, randomness, and event handling.
+
+---
 
 ## 🎮 How to Play
-- Use the **Up Arrow key** to move the turtle forward.
-- Reach the top safely to level up.
-- Avoid getting hit by the cars — one collision ends the game!
 
-## 🧠 Features
-- Increasing difficulty with each level.
-- Simple scoreboard tracking your progress.
-- Game Over display on collision.
+1. When the game starts, a prompt will ask you to **choose a turtle color** to bet on.
+2. Six turtles of different colors line up at the starting line.
+3. The race begins — each turtle moves forward by a random distance.
+4. The first turtle to cross the finish line wins!
+5. If your turtle wins, you win the bet — otherwise, try again!
 
-## 🛠️ Built With
-- Python 3
-- `turtle` graphics module
-- OOP (Object-Oriented Programming) with custom `Car` and `Scoreboard` classes
+---
+
+## 🧠 Features & Concepts Used
+
+- 🐍 **Python Turtle Graphics**  
+- 🎲 **Random module** for unpredictable movement  
+- 🔁 **Loops** and game logic  
+- 🧱 **OOP** principles like classes and instances  
+- ⌨️ **User input** for betting on a turtle  
+- 🖼️ **Visual animation** using simple graphics  
+
+---
+
+## 📦 Requirements
+
+- Python 3.x  
+- No external libraries needed
+
+---
 
 ## 🚀 How to Run
 
-1. Make sure Python 3 is installed.
-2. Save all files (`main.py`, `car.py`, `scoreboard.py`) in the same folder.
-3. Run the main script:
-
-```bash
-python main.py
+1. Make sure you have **Python 3** installed.
+2. Save your game code in a file like `main.py`.
+3. Open your terminal or command prompt.
+4. Navigate to the folder where `main.py` is located:
+   ```bash
+   cd path/to/your/folder
